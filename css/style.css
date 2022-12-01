@@ -147,6 +147,63 @@ font: 16px;
 text-indent: 20px;
 }
 
+/*Pagina Agregar-formulario*/
+.contenedor-formulario{
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+   
+}
+
+.form-titulo{
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+
+.form-desc{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+
+
+
+
+
+.input{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ 
+}
+
+
+
+}
+
+.label{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+.colum{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
