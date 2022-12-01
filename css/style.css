@@ -27,7 +27,7 @@ background: #00669F;
 box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 display: flex;
 align-items: center;
-gap:20px;
+gap:px;
 
 }
 
@@ -36,7 +36,7 @@ gap:20px;
 }
 
 h1{
-color: #ffff;
+color:#fff;
 font-weight: 400;
 font-size: 40px;
 }
@@ -74,16 +74,17 @@ border-radius: 16px 16px 0px 0px;
 
 .perfil{
 position: absolute;
-top: 360px;
+top: 460px;
 width: 120px;
 height: 118px;
 background-image: url(../img/imagen\ batman.png);
 border-radius: 50%;
 background-size: cover;
 margin-left: 90px;
-margin-bottom:300px;
+margin-bottom:150px;
 }
-h2{
+
+.nombrep {
     text-transform: uppercase;
     font-size: 30px;
     line-height: 35px;
@@ -92,6 +93,7 @@ h2{
     text-align: center;
     margin-top:65px;
 }
+
 .h{
  background-image: url(../img/harley.png);
  background-size: cover; 
@@ -106,7 +108,7 @@ h2{
     text-align: center;
     margin-top:65px;
 }
-p{
+.pdesc{
 width: 267px;
 height: 113px;
 font-weight: 400;
