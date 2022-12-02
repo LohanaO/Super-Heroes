@@ -22,82 +22,84 @@
             <h1>Tienda Super Heroes</h1>
         </nav>
     <main>
-        <section class="contenedor">
-           <div class="contenedor-formulario">
-            <div>
-                <h2 class="form-titulo">Añadi tu super </h2>
-                <p class="form-desc">Agrega tu personaje favorito completando la opciones.</p>
-            </div>
+        <section class="contenedor form">
+            <div class="contenedor-formulario">
                 <div>
+                    <h2 class="form-titulo">Añadi tu super! </h2>
+                    <p class="form-desc">Agrega tu personaje favorito completando la opciones.</p>
+                </div>
+               
                     <form action="" >
-                <div class="input">
-                    <div class="colum">
-                        <label class="label" for="name">*Nombre</label>
-                        <input type="text" id="name">
-                    </div>
-                    <div class="colum">
-                        <label class="label" for="especie">*Especie</label>
-                        <select class="select" name="" id="especie">
-                            <option value="">Humano</option>
-                            <option value="">Alienigena</option>
-                            <option value="">Animal</option>
-                            <option value="">Otro</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="input">
-                        <div class="colum">
-                            <label class="label" for="">fecha</label>
-                            <input class="fecha" type="date">
-                        </div>
-                        <div class="colum">
-                            <label for="">Agregar Foto</label>
-                            <input type="file" name="" id="">
-                        </div>
-                </div>
                         <div class="input">
-                            <textarea name="" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
-                            <div class="info-personaje">
-                            <div class="poderes">
-                                <label class="labeld" for="">Poderes</label>
-                                <div class="poder">
-                                    <input type="checkbox" name="poderes">
-                                    <label class="labelp" for="poderes">Volar</label>
-                                </div> <!--checkbox-->
-                                <div class="poder">
-                                    <input type="checkbox" name="poderes">
-                                    <label class="labelp" for="poderes">Superinteligencia</label>
-                                </div> <!--checkbox-->
-                                <div class="poder">
-                                    <input type="checkbox" name="poderes">
-                                    <label class="labelp" for="poderes">Vista de rayo láser</label>
-                                </div> <!--checkbox-->
-                                <div class="poder">
-                                    <input type="checkbox" name="poderes">
-                                    <label class="labelp" for="poderes">Billetera Gorda</label>
-                                </div> <!--checkbox-->
+                            <div class="colum">
+                                <label class="label" for="name">*Nombre</label>
+                                <input class="input-type" type="text" id="name">
                             </div>
-                            <hr>
-                            <div class="tipo">
-                                <input type="radio" id="heroe" name="tipo">
-                                <label  class="label-tipo" for="heroe">Héroe/Heroina</label>
+                            <div class="colum">
+                                <label class="label" for="especie">*Especie</label>
+                                <select class="input-type" name="" id="especie">
+                                    <option value=""></option>
+                                    <option value="">Humano</option>
+                                    <option value="">Alienigena</option>
+                                    <option value="">Animal</option>
+                                    <option value="">Otro</option>
+                                </select>
                             </div>
-                            <div class="tipo">
-                                <input type="radio" id="villano" name="tipo">
-                                <label class="label-tipo" for="villano">villano/villana</label>
-                            </div>
-                            <a class="boton" href="index.html">Añadir</a>
                         </div>
-
-
-                       
-                
+                        <div class="input">
+                            <div class="colum">
+                                <label class="label" for="">fecha</label>
+                                <input class="input-type" type="date">
+                            </div>
+                            <div class="colum cfoto">
+                                <label class="label" for="">Agregar Foto</label>
+                                <input type="file" name="" id="">
+                            </div>
+                    </div>
+                    <div class="input">
+                        <textarea class="area" name="" id="" cols="30" rows="10" placeholder="Descripción"></textarea>
+                        <div class="info-personaje">
+                        <div class="poderes colum">
+                            <label class="label" for="">Poderes</label>
+                            <div class="poder">
+                                <input type="checkbox" name="poderes">
+                                <label class="labelp" for="poderes">Volar</label>
+                            </div> <!--checkbox-->
+                            <div class="poder">
+                                <input type="checkbox" name="poderes">
+                                <label class="labelp" for="poderes">Superinteligencia</label>
+                            </div> <!--checkbox-->
+                            <div class="poder">
+                                <input type="checkbox" name="poderes">
+                                <label class="labelp" for="poderes">Vista de rayo láser</label>
+                            </div> <!--checkbox-->
+                            <div class="poder">
+                                <input type="checkbox" name="poderes">
+                                <label class="labelp" for="poderes">Billetera Gorda</label>
+                            </div> <!--checkbox-->
+                        </div>
+                        <hr>
+                        
+                        <div class="poderes">
+                            <label class="label" for="">Tipo de Personaje</label>
+                        <div class="tipo">
+                            <input type="radio" id="heroe" name="tipo">
+                            <label  class="label-tipo" for="heroe">Héroe/Heroina</label>
+                        </div>
+                        <div class="tipo">
+                            <input type="radio" id="villano" name="tipo">
+                            <label class="label-tipo" for="villano">villano/villana</label>
+                        </div>   
+                    </div>
+                </div>
+            </div>
                     </form>
-                    
-           </div>
-
-           
-                             
+               
+                <div  class="boton">
+                    <a class="boton-enlace"  href="index.html">Añadir</a>
+                </div>
+            </div>
+          
         </section>
     </main>
     <footer>Todos los derechos reservados a  Digital Mind</footer>

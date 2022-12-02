@@ -45,7 +45,7 @@ font-size: 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 18px;
+    gap: 30px;
     
 
     
@@ -153,6 +153,14 @@ text-indent: 20px;
     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
     border-radius: 49.0901px;
    
+    padding: 30px 70px 30px 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+   
+   
+   
 }
 
 .form-titulo{
@@ -183,28 +191,123 @@ text-indent: 20px;
 .input{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
  
 }
-
-
-
-}
-
 .label{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
     font-size: 20px;
+    color: #fff;
 }
-
-
-
 .colum{
     display: flex;
     flex-direction: column;
+   
+}
+.input-type{
+    width: 343px;
+    height: 63px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
 }
 
+.poderes{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tipo{
+    color: #fff;
+}
+.area{
+    width: 343px;
+    height: 307px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+    
+
+}
+
+.info-personaje{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+input[type="checkbox"]{
+    width: 24px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+
+input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+
+.poder,.tipo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.boton{
+    width: 466px;
+    height: 87px;
+    background: #1CD1B0;
+    border-radius: 23.011px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+   
+}
+.boton-enlace{
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    
+    
+}
+.cfoto{
+    gap: 25px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.form{
+    flex-direction: column;
+    
+   
+   
+   
+}
+
+
+
+
+   
+ 
 
 
 
