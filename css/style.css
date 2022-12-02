@@ -5,6 +5,8 @@
 
 
 }
+
+
 .encabezado{
 height: 38px;
 background: #1CD1B0;
@@ -27,7 +29,8 @@ background: #00669F;
 box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 display: flex;
 align-items: center;
-gap:px;
+gap:10px;
+
 
 }
 
@@ -40,12 +43,13 @@ color:#fff;
 font-weight: 400;
 font-size: 40px;
 }
+
 .contenedor{
-    margin-top: 200px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    gap: 35px;
+    margin: 70px;
     
 
     
@@ -74,14 +78,14 @@ border-radius: 16px 16px 0px 0px;
 
 .perfil{
 position: absolute;
-top: 460px;
+bottom: 110px;
 width: 120px;
 height: 118px;
 background-image: url(../img/imagen\ batman.png);
 border-radius: 50%;
 background-size: cover;
 margin-left: 90px;
-margin-bottom:150px;
+
 }
 
 .nombrep {
@@ -137,7 +141,7 @@ footer{
 width: 100%;
 height: 51px;
 left: 20px;
-margin-top: 100px;
+
 background: #00669F;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 display: flex;
@@ -201,9 +205,15 @@ text-indent: 20px;
     font-size: 20px;
     color: #fff;
 }
+
+.colfoto{
+    gap: 20px;
+    margin-bottom: 20px;
+}
 .colum{
     display: flex;
     flex-direction: column;
+    gap: 10px;
    
 }
 .input-type{
@@ -284,9 +294,7 @@ input[type="radio"]{
     
     
 }
-.cfoto{
-    gap: 25px;
-}
+
 
 form{
     display: flex;
@@ -303,6 +311,59 @@ form{
    
 }
 
+/*media query*/
+@media (max-width : 480px) {
+    .contenedor{
+       
+        flex-direction: column;
+        
+    }
+
+    .contenedor-formulario{
+       width: 90vw; 
+       padding: 20px;
+       
+    }
+       
+
+    .input-type{
+       
+    }
+
+    .form-desc{
+        font-size: 15px;
+    }
+
+    .colum{
+        display: flex;
+        
+    }
+
+    .input{
+        flex-direction: column;
+    }
+    .area{
+       width: 85%;
+    }
+
+    .boton{
+        width: 80%;
+
+
+    }
+    .conp{
+        justify-content: center;
+    }
+
+    .colfoto{
+       
+    }
+
+   
+
+}
+
+    
 
 
 
