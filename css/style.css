@@ -74,8 +74,8 @@ font-size: 40px;
 
     
    
-
 }
+
 .card{
 width: 300px;
 height: 500px;
@@ -97,15 +97,27 @@ border-radius: 16px 16px 0px 0px;
 }
 
 .perfil{
-position: absolute;
-bottom: 110px;
+
 width: 120px;
 height: 118px;
-background-image: url(../img/imagen\ batman.png);
 border-radius: 50%;
+background-image: url(../img/imagen\ batman.png);
 background-size: cover;
 margin-left: 90px;
+margin-top: -70px;
+margin-bottom: 15px;
 
+}
+
+.w{
+    background-image: url(../img/wonder.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.woman{
+    background-image: url(../img/fondo\ wonder.jpg);
+    background-size: cover;
 }
 
 .nombrep {
@@ -115,12 +127,12 @@ margin-left: 90px;
     display: block;
     align-items: flex-end;
     text-align: center;
-    margin-top:65px;
+    margin-bottom: 15px;
+   
 }
 
 .h{
- background-image: url(../img/harley.png);
- background-size: cover; 
+background-image: url(../img/harley.png);
  
 }
 .ha {
@@ -130,7 +142,7 @@ margin-left: 90px;
     display: block;
     align-items: flex-end;
     text-align: center;
-    margin-top:65px;
+  
 }
 .pdesc{
 width: 267px;
@@ -141,7 +153,8 @@ display: block;;
 align-items: flex-end;
 text-align: left;
 margin-left: 20PX;
-margin-top: 5PX;
+margin-bottom: 15px;
+
 }
 .card a{
 width: 128.78px;
@@ -154,7 +167,7 @@ color:#F3F3F3;
 font-size: 15px;
 text-decoration: none;
 margin-left: 90px;
-margin-top: 20px;
+
 }
 footer{
 
@@ -376,13 +389,11 @@ form{
         justify-content: center;
     }
 
-    .colfoto{
-       
-    }
-
+}
+    
    
 
-}
+
 
 @media (max-width : 768px) {
     .contenedor{
